@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Customer purchasing behavior dataset analysis")
+st.title("Customer Purchasing Behavior Dataset Analysis")
 df=pd.read_csv("Customer-Purchasing-Behaviors.csv")
 
 st.write("First 5 rows")
